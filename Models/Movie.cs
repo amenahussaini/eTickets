@@ -13,7 +13,10 @@ namespace eTickets.Models
         [Key]
         public int Id { get; set; }
 
+        [Display(Name = "Name")]
         public string Name { get; set; }
+
+        [Display(Name = "Description")]
         public string Description { get; set; }
 
         public DateTime StartDate { get; set; }
@@ -21,7 +24,12 @@ namespace eTickets.Models
 
         public double Price { get; set; }
 
+        [Display(Name = "Image")]
+        public string ImageURL { get; set; }
+
+        [Display(Name = "Movie Category")]
         public MovieCategory MovieCategory { get; set; }
+
 
         //Relationships
         public List<Actor_Movie> Actor_Movies { get; set; }

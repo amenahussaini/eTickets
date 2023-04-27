@@ -146,6 +146,7 @@ namespace eTickets.Data
                             Price = 39.50,
                             StartDate = DateTime.Now.AddDays(-10),
                             EndDate = DateTime.Now.AddDays(10),
+                            ImageURL = "http://dotnethow.net/images/movies/movie-3.jpeg",
                             CinemaId = 3,
                             ProducerId = 3,
                             MovieCategory = MovieCategory.Documentary
@@ -157,6 +158,7 @@ namespace eTickets.Data
                             Price = 29.50,
                             StartDate = DateTime.Now,
                             EndDate = DateTime.Now.AddDays(3),
+                            ImageURL = "http://dotnethow.net/images/movies/movie-1.jpeg",
                             CinemaId = 1,
                             ProducerId = 1,
                             MovieCategory = MovieCategory.Action
@@ -168,6 +170,7 @@ namespace eTickets.Data
                             Price = 39.50,
                             StartDate = DateTime.Now,
                             EndDate = DateTime.Now.AddDays(7),
+                            ImageURL = "http://dotnethow.net/images/movies/movie-4.jpeg",
                             CinemaId = 4,
                             ProducerId = 4,
                             MovieCategory = MovieCategory.Horror
@@ -179,6 +182,7 @@ namespace eTickets.Data
                             Price = 39.50,
                             StartDate = DateTime.Now.AddDays(-10),
                             EndDate = DateTime.Now.AddDays(-5),
+                            ImageURL = "http://dotnethow.net/images/movies/movie-6.jpeg",
                             CinemaId = 1,
                             ProducerId = 2,
                             MovieCategory = MovieCategory.Documentary
@@ -190,6 +194,7 @@ namespace eTickets.Data
                             Price = 39.50,
                             StartDate = DateTime.Now.AddDays(-10),
                             EndDate = DateTime.Now.AddDays(-2),
+                            ImageURL = "http://dotnethow.net/images/movies/movie-7.jpeg",
                             CinemaId = 1,
                             ProducerId = 3,
                             MovieCategory = MovieCategory.Cartoon
@@ -201,6 +206,7 @@ namespace eTickets.Data
                             Price = 39.50,
                             StartDate = DateTime.Now.AddDays(3),
                             EndDate = DateTime.Now.AddDays(20),
+                            ImageURL = "http://dotnethow.net/images/movies/movie-8.jpeg",
                             CinemaId = 1,
                             ProducerId = 5,
                             MovieCategory = MovieCategory.Drama
